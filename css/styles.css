@@ -327,3 +327,6 @@ header {
 img {
      display: block;
 }
+.portfolio-list {
+     width: calc((100% - 48px) / 3);
+    }
