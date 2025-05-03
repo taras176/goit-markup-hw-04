@@ -32,6 +32,7 @@ ul {
        line-height: 124%;
 }
 .title {
+       max-width: 496px;
        margin-bottom: 48px;
        text-align: center;
        letter-spacing: 0.02em;
@@ -56,14 +57,20 @@ ul {
 
 }
 .portfolio {
-     color: #2E2F42;
+       color: #2E2F42;
        letter-spacing: 0.02em;
        font-weight: 500;
        font-size: 20px;
        line-height: 120%;
        letter-spacing: 0.02em;
+       margin-bottom: 8px
 }
 .button {
+       
+       display: block;
+       min-width: 169px;
+       height: 56px;
+       border: none;
        padding: 16px 32px;
        font-family: "Roboto", sans-serif;
        font-weight: 500;
@@ -107,6 +114,7 @@ ul {
 }
 .footer {
      background-color: #2E2F42;
+     padding: 100px 0px;
 }
 .logo-footer {
      color: #4d5ae5;
@@ -116,6 +124,8 @@ ul {
           line-height: 117%;
           letter-spacing: 0.03em;
           text-transform: uppercase;
+          display: inline-block;
+          margin-bottom: 16px;
 }
 .footer-text {
      color: #F4F4FD;
@@ -137,6 +147,7 @@ ul {
         text-transform: capitalize;
         padding-bottom: 72px;
         padding-top: 102px;
+        margin-bottom: 72px;
 }   
 .p2{
      font-size: 16px;
@@ -167,12 +178,14 @@ ul {
      text-align: center;
      letter-spacing: 0.02em;
      color: #2E2F42;
+     margin-bottom: 8px;
 }
 .text-sevices{
      font-size: 16px;
           line-height: 1.5;
           letter-spacing: 0.02em;
-          color: #434455
+          color: #434455;
+          text-align: center;
 }
 .li-taem {
 
@@ -198,7 +211,7 @@ ul {
 }
 .li-services {
      display: flex;
-     ;
+     margin-bottom: 8px;
      font-weight: 500;
           font-size: 20px;
           line-height: 120%;
@@ -257,6 +270,7 @@ ul {
      margin-top: 20px;
      gap: 24px;
      padding-bottom: 120px;
+     row-gap: 48px;
 }
 .ul-services {
      display: flex;
@@ -289,4 +303,27 @@ ul {
 header {
      border-bottom: 1px solid #e7e9fc
 
+}
+.section-services {
+     padding: 120px 0px;
+}
+.services-list {
+     flex-basis:calc((100% - 3 * 24px) / 4)
+}
+.team-container {
+     padding: 32px 0px;
+
+}
+.section-port {
+     padding-top: 120px;
+     padding-bottom: 120px;
+} 
+.portfolio-container {
+     padding: 32px 16px;
+     border: 1px solid #e7e9fc;
+     border-top: none;
+}
+    
+img {
+     display: block;
 }
