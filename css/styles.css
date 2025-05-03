@@ -100,7 +100,7 @@ ul {
      flex-wrap: wrap;
 }
 .section-h {
-          padding: 188px;
+          padding: 188px 0px;
           background-color: #2E2F42;
           color: #FFFFFF;
           text-align: center;
