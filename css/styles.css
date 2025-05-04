@@ -137,6 +137,7 @@ ul {
 }
 .span-footer {
      color: #f4f4fd;
+     display: inline-block;
 }
 .section-portfolio {
      color: #2e2f42;
@@ -310,7 +311,7 @@ header {
      padding: 120px 0px;
 }
 .services-list {
-     flex-basis:calc((100% - 3 * 24px) / 4);
+     width: calc((100% - 72px) / 4);
 }
 .team-container {
      padding: 32px 0px;
@@ -335,4 +336,16 @@ img {
 .logo-footer {
      display: inline-block;
          
+}
+.hidden {
+          position: absolute;
+          white-space: nowrap;
+          width: 1px;
+          height: 1px;
+          overflow: hidden;
+          border: 0;
+          padding: 0;
+          clip: rect(0 0 0 0);
+          clip-path: inset(50%);
+          margin: -1px;
 }
