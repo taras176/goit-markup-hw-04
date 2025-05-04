@@ -105,6 +105,7 @@ ul {
      background: #F4F4FD;
      display: flex;
      flex-wrap: wrap;
+     padding: 120px 0px;
 }
 .section-h {
           padding: 188px 0px;
@@ -201,6 +202,7 @@ ul {
      width: 264px;
      height: 380px;
      background-color: #FFFFFF;
+     flex-basis: calc((100% - 3 * 24px) / 4)
 
 }
 .text-portfolio {
