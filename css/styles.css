@@ -14,6 +14,8 @@ ul {
 
 ul {
      list-style: none;
+     padding-left: 0px;
+     margin: 0px;
 }
 
 .container {
@@ -121,6 +123,12 @@ ul {
      color: #4d5ae5;
           display: inline-block;
           margin-bottom: 16px;
+          font-family: "Raleway", sans-serif;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 117%;
+          letter-spacing: 0.03em;
+          text-transform: uppercase;
 }
 .footer-text {
      color: #F4F4FD;
@@ -298,7 +306,6 @@ ul {
      padding-top: 20px;
      }
 .container-footer {
-     display: flex;
      padding: 100px 886px 100px 0px;
      justify-content: flex-start;
      flex-direction: column;
@@ -347,6 +354,6 @@ img {
           border: 0;
           padding: 0;
           clip: rect(0 0 0 0);
-          clip-path: inset(50%);
+          clip-path: inset(100%);
           margin: -1px;
 }
