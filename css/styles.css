@@ -410,6 +410,7 @@ img {
 .list-team-svg {
      width: 40px;
      height: 40px;
+     display: flex;
 }
 .a-social {
      width: 100%;
@@ -429,7 +430,4 @@ img {
 }
 .team-svg {
      fill: #f4f4fd;
-}
-.div-team-svg {
-     display: flex;
 }
