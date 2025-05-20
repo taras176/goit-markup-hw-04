@@ -80,10 +80,11 @@ li{
        font-size: 16px;
        line-height: 1.5;
        letter-spacing: 0.04em;
-       background: #4D5AE5;
+       background-color: #4D5AE5;
        color: #FFFFFF;
        cursor: pointer;
        border-radius: 4px;
+       transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
       
 }
 .logo {
@@ -111,10 +112,19 @@ li{
      padding: 120px 0px;
 }
 .section-h {
+          display: flex;
+          margin: 0;
+          padding: 0;
+          background-image: linear-gradient(46,47,66,0.7);
+          background-image: url(../images/icon/people-office\ 1.png);
           padding: 188px 0px;
           background-color: #2E2F42;
           color: #FFFFFF;
           text-align: center;
+          max-width: 1440px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center; 
 }
 .footer {
      background-color: #2E2F42;
@@ -174,7 +184,24 @@ li{
      align-items: center;
      font-weight: 500;
      
-     color: #2e2f42;
+     color: #2E2F42;
+
+}
+.navigation-style {
+     position: relative;
+     color: #404bbf;
+     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.navigation-style::after {
+     content: "";
+     width: 100%;
+     position: absolute;
+     left: 0;
+     bottom: -1px;
+     height: 4px;
+     background-color: #404bbf;
+     border-radius: 2px;
 
 }
 .address{
@@ -265,6 +292,7 @@ li{
      
      display: flex;
      gap: 40px;
+     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
      color: #434455;}
 .ul-team {
@@ -292,44 +320,16 @@ li{
      margin-top: 20px;
      
 }
-.clock{
+.services-svg {
      display: flex;
-     border: 1px solid #2E2F42;
-     border-radius: 4px;
-     width: 264px;
+     align-items: center;
+     justify-content: center;
      height: 112px;
-     background-color: #F4F4FD;        
-     position: absolute;
-     top: 8px;
-     
-}  
-.antena{
-     display: flex;
-     border: 1px solid #2E2F42;
+     background-color: #f4f4fd;
      border-radius: 4px;
-     width: 264px;
-     height: 112px;
-     background-color: #F4F4FD;        
-     position: absolute;
-     top: 8px;
-}
-.diagram{
-     display: flex;
-     border: 1px solid #2E2F42;
-     border-radius: 4px;
-     width: 264px;
-     height: 112px;
-     background-color: #F4F4FD;        
-     position: absolute;
-}
-.astronaut{
-     display: flex;
-     border: 1px solid #2E2F42;
-     border-radius: 4px;
-     width: 264px;
-     height: 112px;
-     background-color: #F4F4FD;        
-     position: absolute;
+     border: 1px solid #8e8f99;
+     margin-bottom: 8px;
+
 }
 .header-nav{
      display: flex;
@@ -352,7 +352,8 @@ li{
 
 }
 header {
-     border-bottom: 1px solid #e7e9fc
+     border-bottom: 1px solid #e7e9fc;
+     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
 
 }
 .section-services {
@@ -398,4 +399,37 @@ img {
           clip: rect(0 0 0 0);
           clip-path: inset(100%);
           margin: -1px;
+}
+
+
+.ul-team-swg {
+     display: flex;
+     justify-content: center;
+     gap: 24px;
+}
+.list-team-svg {
+     width: 40px;
+     height: 40px;
+}
+.a-social {
+     width: 100%;
+     height: 100%;
+     background-color: #4d5ae5;
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     transition: background-color 250ms cubic-bezier(0.4,0,0.2,1);
+}
+.a-social:hover {
+     background-color: #404bbf;
+}
+.a-social:focus {
+     background-color: #404bbf;
+}
+.team-svg {
+     fill: #f4f4fd;
+}
+.div-team-svg {
+     display: flex;
 }
