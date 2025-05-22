@@ -125,6 +125,12 @@ li{
           background-size: cover;
           background-position: center; 
 }
+.section img {
+     background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url(../images/icon/people-office\ 1.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+}
 .footer {
      background-color: #2E2F42;
      padding: 100px 0px;
