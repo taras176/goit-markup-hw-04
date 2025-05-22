@@ -226,7 +226,6 @@ li{
           text-align: center;
 }
 .li-taem {
-
      display: flex;
      padding-left: 117px;
      flex-direction: row;
@@ -239,7 +238,8 @@ li{
      width: 264px;
      height: 380px;
      background-color: #FFFFFF;
-     flex-basis: calc((100% - 3 * 24px) / 4)
+     flex-basis: calc((100% - 3 * 24px) / 4);
+     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),0px 1px 1px rgba(46, 47, 66, 0.16),0px 2px 1px rgba(46, 47, 66, 0.08);
 
 }
 .text-portfolio {
@@ -488,6 +488,9 @@ img {
 .footer-svg {
      fill: #f4f4fd;
 }
-.portfolio-list:hover {
-     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),0px 1px 1px rgba(46, 47, 66, 0.16),0px 2px 1px rgba(46, 47, 66, 0.08);
+.footer-logo {
+     margin-right: 120px;   
+}
+.portfolio-svg-text:hover {
+     transform: translateY(0);
 }
