@@ -303,6 +303,9 @@ li{
      padding-bottom: 116px;
    
 }
+.portfolio-list:hover {
+     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),0px 1px 1px rgba(46, 47, 66, 0.16),0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .ul-portfolio {
      display: flex;
      flex-wrap: wrap;
@@ -491,6 +494,6 @@ img {
 .footer-logo {
      margin-right: 120px;   
 }
-.portfolio-svg-text:hover {
+.portfolio-list:hover .portfolio-svg-text {
      transform: translateY(0);
 }
